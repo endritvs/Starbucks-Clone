@@ -1,0 +1,126 @@
+
+
+
+@media only screen and (max-width: 600px) {
+body {
+width:100%;
+}
+.header{
+width:100%;
+
+}
+.nav{
+width:500px;
+height:100px;
+}
+.logo{
+width:150px;
+position:relative;
+right: 50px;
+top: 10px;
+}
+
+
+.text h1{
+width:200px;
+font-size: 20px;
+text-align: center;
+}
+.text p{
+width: 200px;
+font-size: 15px;
+text-align: center;
+}
+.foto{
+position: relative;
+top: 160px;
+width: 250px;
+}
+.foto img{
+width: 100%;
+}
+.img img{
+width: 300px;
+height:300px;
+position: relative;
+left: 65px;
+}
+.text-1{
+width: 350px;
+height:200px;
+text-align: center;
+position: relative;
+right: 250px;
+top: 400px;
+}
+.text-1 h1{
+width: 300px;
+font-size:20px;
+
+
+}
+.text-1 p{
+width: 350px;
+font-size:15px;
+position: relative;
+right: 30px;
+}
+.text-6{
+
+height:100px;
+width:500px;
+position: relative;
+top: 300px;
+right: 150px;
+text-align: center;
+font-size:10px;
+
+}
+.btn{
+margin-right: 20px;
+
+}
+.texttttt .txt{
+width: 400px;
+text-align: center;
+position: relative;
+right:500px;
+
+}
+.content-footer{
+width:50px;
+position: inherit;
+right:100px;
+}
+.footer{
+height: 100px;
+}
+.icons{
+position: relative;
+left: 100px;
+}
+#footer-text{
+position: relative;
+top: 20px;
+}
+ul .l a{
+
+position: absolute;
+left: 1000px;
+
+}
+ul .m a{
+
+position: absolute;
+right: 100px;
+
+}
+ul .r a{
+
+position: absolute;
+right: 200px;
+
+
+}
+}
+

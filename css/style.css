@@ -1,0 +1,601 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+
+
+hr {
+  box-shadow: 0px 1px 0px 1px rgb(207, 207, 207);
+  border: none;
+}
+.content {
+  margin: 40px;
+  background-color: #d4e9e2;
+  display: flex;
+  height: 300px;
+  color: #1e3932;
+}
+.text h1 {
+  width: 500px;
+  text-align: center;
+  font-size: 50px;
+  position: relative;
+  font-weight: 900;
+  top: 20px;
+  left: 100px;
+}
+.text p {
+  width: 500px;
+  position: relative;
+  top: 50px;
+  left: 100px;
+  text-align: center;
+  font-size: 25px;
+}
+.foto img {
+  width: 70%;
+  float: right;
+  position: relative;
+  right: 100px;
+  top: 10px;
+}
+.content-1 {
+  margin: 40px;
+  height: 600px;
+  background-color: #d50032;
+  display: flex;
+}
+.text-1 {
+  float: right;
+  position: relative;
+  
+  top: 250px;
+  right: 100px;
+  color: white;
+  text-align: center;
+}
+.text-1 h1 {
+  position: relative;
+  bottom: 100px;
+  width: 500px;
+  font-size: 50px;
+}
+.text-1 p {
+  width: 500px;
+  font-size: 25px;
+  position: relative;
+  bottom: 70px;
+}
+.img img {
+  width: 70%;
+
+}
+.text-1 button {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 100px;
+  padding: 10px;
+}
+.text-1 button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+}
+.text-1 button:hover {
+  background-color: rgba(179, 179, 179, 0.356);
+}
+.content-2 {
+  margin: 40px;
+  height: 600px;
+  background-color: #d50032;
+  display: flex;
+}
+.content-2 img {
+  width: 100%;
+  height: 600px;
+}
+.content-2 .text-1 {
+  position: relative;
+  left: 150px;
+}
+.content-3 {
+  margin: 40px;
+  height: 392px;
+  background-color: #d4e9e2;
+  display: flex;
+}
+.text-2 {
+  position: relative;
+  width: 50%;
+  right: 100px;
+  top: 150px;
+  text-align: center;
+  color: #1e3932;
+}
+.text-2 h1 {
+  position: relative;
+  bottom: 50px;
+}
+.text-2 button {
+  background-color: transparent;
+  border: 1px solid #1e3932;
+  border-radius: 100px;
+  padding: 10px;
+  position: relative;
+  top: 30px;
+}
+.text-2 button a {
+  text-decoration: none;
+  color: #1e3932;
+  font-weight: 900;
+}
+.text-2 button:hover {
+  background-color: rgba(179, 179, 179, 0.356);
+}
+
+.txt {
+  text-align: center;
+  width: 800px;
+  font-size: 12px;
+  position: relative;
+  left: 350px;
+}
+.footer-1 {
+  display: flex;
+}
+.content-footer {
+  width: 200px;
+  margin: 20px;
+  position: relative;
+  left: 175px;
+}
+.content-footer ul {
+  list-style-type: none;
+}
+.content-footer ul li a {
+  text-decoration: none;
+  color: gray;
+}
+.content-footer ul li a:hover {
+  color: black;
+}
+.icons a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #1e3932;
+  position: relative;
+  left: 30px;
+  top: 15px;
+}
+.footer p {
+  text-align: center;
+  position: relative;
+  bottom: 15px;
+}
+
+/* forma per sign in ne css */
+
+
+/*     background: rgba(212,233,226,.33);  color: #00754a!important;*/
+.card1 {
+  width: 500px;
+  height: 200px;
+  position: relative;
+  top: 200px;
+  left: 525px;
+  background: rgba(212, 233, 226, 0.33);
+  border-radius: 10px;
+}
+.card1 h1 {
+  color: #00754a;
+  position: relative;
+  top: 40px;
+  left: 50px;
+
+  font-size: 25px;
+}
+.card1 p {
+  color: rgba(0, 0, 0, 0.87);
+  width: 400px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  left: 40px;
+}
+.card1 button {
+  position: relative;
+  top: 70px;
+  left: 200px;
+  padding: 10px;
+  background-color: transparent;
+  color: #00754a;
+  border: 1px solid #00754a;
+  border-radius: 10px;
+}
+.card1 button:hover {
+  background-color: #d4e9e2;
+}
+.star {
+  background-color: #1e3932;
+  height: 50px;
+  color: white;
+}
+.star h4 {
+  position: relative;
+  left: 70px;
+  top: 15px;
+}
+.content-r {
+  height: 90vh;
+  background-color: rgb(212, 233, 226);
+}
+.text-rewards {
+  position: relative;
+  top: 200px;
+  left: 50px;
+}
+.text-rewards h1 {
+  width: 250px;
+}
+.text-rewards p {
+  position: relative;
+  top: 25px;
+  font-weight: 500;
+}
+.text-rewards h3 {
+  position: relative;
+  top: 50px;
+}
+.foto-s {
+  float: right;
+}
+.text-rewards a button {
+  position: relative;
+  top: 40px;
+  background-color: #00754a;
+  padding: 10px;
+  border: 1px solid #00754a;
+  color: white;
+  border-radius: 100px;
+  font-weight: bold;
+}
+.content-rew {
+  height: 80vh;
+}
+.text-rew {
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+.text-rew p {
+  position: relative;
+  top: 20px;
+}
+.cart {
+  text-align: center;
+  width: 300px;
+  position: relative;
+  top: 300px;
+  margin-right: 100px;
+  left: 160px;
+}
+.cart img {
+  border-radius: 100px;
+  width: 20%;
+  position: relative;
+
+  left: 50px;
+}
+.cart h4 {
+  position: relative;
+  top: 5px;
+  left: 50px;
+  font-size: 18px;
+  font-weight: 900;
+}
+.cart p {
+  width: 400px;
+  position: relative;
+  top: 15px;
+}
+.cartss {
+  display: flex;
+}
+.fav-coffe {
+  background-color: rgb(241, 248, 245);
+  height: 180px;
+}
+.text-coffe h1 {
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+.list-coffe button {
+  position:relative;
+  left: 570px;
+  top: 75px;
+  padding: 20px;
+  border:none;
+  font-size: 18px;
+  background-color:transparent;
+}
+.list-coffe button:hover{
+  border-bottom: 3px solid #006641;
+}
+.caffes {
+  height: 300px;
+  background-color: rgb(212, 233, 226);
+}
+.extra {
+  height: 90vh;
+}
+
+.extra-text {
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+.extra-text p {
+  position: relative;
+  top: 15px;
+  width: 700px;
+  left: 400px;
+}
+.fotot-ushqimeve img{
+  width: 20%;
+  position: relative;
+  left: 500px;
+  top: 50px;
+}
+.fotot-ushqimeve h1{
+  position: relative;
+  left: 850px;
+  bottom: 80px;
+  width: 500px;
+}
+.fotot-ushqimeve p{
+  width:500px;
+  position: relative;
+  left: 850px;
+  bottom: 75px;
+}
+.aa {
+  color: #006641;
+  position: relative;
+  top: 30px;
+  left: 50px;
+}
+.extrass {
+  display: flex;
+  position: relative;
+  bottom: 80px;
+}
+.credit-card {
+  height: 150vh;
+  background-color: rgb(242, 240, 235);
+}
+
+.h1p {
+  position: relative;
+  top: 220px;
+  left: 80px;
+}
+.h1p h2,
+.p11 {
+  width: 200px;
+  position: relative;
+  bottom: 30px;
+}
+.mobiles {
+  position: relative;
+  top: 190px;
+  left: 100px;
+}
+.mobiles img {
+  position: relative;
+  left: 250px;
+  bottom: 70px;
+  width: 10%;
+}
+.mobiles h3,
+.ppp {
+  position: relative;
+  width: 400px;
+  bottom: 280px;
+  left: 420px;
+}
+.ppp {
+  width: 300px;
+  position: relative;
+  margin-top: 20px;
+}
+.g-card-1 {
+  width: 100%;
+  height: 300px;
+}
+.g-card-1 h4 {
+  position: relative;
+  left: 100px;
+  top: 30px;
+}
+.gift-cardss {
+  display: flex;
+}
+
+.g-card-1-different .aa img {
+  width: 250px;
+  margin: 20px;
+  position: relative;
+  top: 25px;
+  left: 20px;
+}
+.succes {
+  height: 150px;
+  background-color: rgb(212, 233, 226);
+}
+.succes-text {
+  display: flex;
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+.succes-text p {
+  position: relative;
+  top: 10px;
+  left: 40px;
+}
+.succes-text a
+.btn {
+  position: relative;
+  left: 40px;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 100px;
+  font-weight: bold;
+}
+.succes-text button a{
+  border: 1px solid black;
+  
+}
+.btn1 {
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 100px;
+  position: relative;
+  left: 50px;
+}
+.btn2 {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 100px;
+  position: relative;
+  left: 50px;
+}
+.btn2:hover {
+  background-color: #d4e9e2;
+  color: black;
+}
+.gg-card {
+  height: 350px;
+}
+.gg-card-photo img {
+  width: 30%;
+  position: relative;
+  left: 90px;
+}
+.gg-card-text {
+  position: relative;
+  left: 600px;
+  bottom: 225px;
+  width: 400px;
+}
+.gg-card-text p {
+  color: gray;
+  position: relative;
+  top: 20px;
+}
+.gg-card-text a
+button {
+  position: relative;
+  top: 30px;
+  padding: 10px;
+  border-radius: 100px;
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+}
+
+.gg-card-text button {
+  border: 1px solid black;
+}
+.g-support {
+  height: 200px;
+
+  background-color: rgb(237, 235, 233);
+}
+.g-support-text {
+  position: relative;
+  left: 100px;
+  top: 40px;
+}
+
+.g-support-text p {
+  width: 400px;
+  position: relative;
+  top: 15px;
+}
+.g-support-button {
+  position: relative;
+  top: 60px;
+  left: 40px;
+}
+.g-support-button button {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius:100px;
+  position: relative;
+  left: 50px;
+}
+.g-support-button button:hover{
+  background-color:black;
+  color:white;
+}
+.g-support-button a {
+  text-decoration: none;
+}
+.list-block-b {
+  width: 150px;
+  position: relative;
+  left: 160px;
+  top: 50px;
+}
+.list-block-b ul {
+  list-style-type: none;
+}
+.list-block-b ul li {
+  margin-top: 20px;
+}
+.list-block-b ul li a {
+  text-decoration: none;
+  color: gray;
+}
+.flexi-drinks {
+  display: block;
+}
+.drinks-food {
+  position: relative;
+  bottom: 1100px;
+  left: 400px;
+}
+.h2h3 h3 {
+  margin-top: 50px;
+}
+.hrrr {
+  width: 900px;
+  margin-top: 10px;
+}
+.drinkss {
+  width: 400px;
+  height: 200px;
+}
+.drinkss img {
+  width: 150px;
+  border-radius: 100px;
+  position: relative;
+  top: 50px;
+}
+.drink {
+  display: flex;
+}
+.drinkss h4 {
+  position: relative;
+  left: 170px;
+  bottom: 40px;
+}
+
